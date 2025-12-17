@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quantum Business Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header><h1>Quantum Business Hub</h1></header>
+
+<main>
+
+<section id="finance">
+  <h2>Finance: Portfolio</h2>
+  <div id="finance-output"></div>
+  <canvas id="finance-chart"></canvas>
+  <button onclick="runFinance()">Run Portfolio</button>
+</section>
+
+<section id="risk">
+  <h2>Risk Simulation</h2>
+  <canvas id="risk-chart"></canvas>
+  <button onclick="runRisk()">Run Risk Sim</button>
+</section>
+
+<section id="blockchain">
+  <h2>Blockchain Keys</h2>
+  <div id="blockchain-output"></div>
+  <button onclick="runBlock()">Get Post‑Quantum Key</button>
+</section>
+
+<section id="consulting">
+  <h2>Consulting Schedule</h2>
+  <div id="consulting-output"></div>
+  <button onclick="runConsult()">Optimize</button>
+</section>
+
+<section id="legal">
+  <h2>Legal Workflow</h2>
+  <div id="legal-output"></div>
+  <button onclick="runLegal()">Run Workflow</button>
+</section>
+
+<section id="data">
+  <h2>Data Analysis</h2>
+  <div id="data-output"></div>
+  <button onclick="runData()">Simulate Data</button>
+</section>
+
+<section id="logistics">
+  <h2>Logistics</h2>
+  <div id="logistics-output"></div>
+  <button onclick="runLogistics()">Optimize Route</button>
+</section>
+
+<script src="js/finance.js"></script>
+<script src="js/blockchain.js"></script>
+<script src="js/consulting.js"></script>
+<script src="js/legal.js"></script>
+<script src="js/data.js"></script>
+<script src="js/logistics.js"></script>
+
+</body>
+</html>
