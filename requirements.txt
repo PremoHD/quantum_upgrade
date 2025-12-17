@@ -1,0 +1,8 @@
+Flask
+flask-cors
+qiskit
+pqcrypto
+yfinance
+PyPortfolioOpt
+pandas
+numpy
